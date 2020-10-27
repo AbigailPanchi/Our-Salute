@@ -1,4 +1,9 @@
-En nuestro País, según el Instituto Nacional de Estadísticas y Censos (INEC) refiere que seis de las 10 causas más importantes de muerte en el país se deben a enfermedades no transmisibles, es decir aproximadamente 71.000 muertes están relacionadas con problemas del corazón, diabetes y otros tipos de cáncer. Se debe a que gran parte de la población no tiene un cuidado en su alimentación, no tienen tiempo disponible para acudir a una cita médica o no puede acceder al sistema de Salud; además por el desconocimiento de las enfermedades no se puede diferenciar los síntomas.
-A través de nuestro proyecto queremos motivar y ayudar a las personas que tengan un mejor cuidado de su salud, esto lo realizamos a través de una página web que permita a los usuarios tener una mejor información sobre las enfermedades. 
- 
-
+                                              Elevator Pitch
+Â¿SabÃ­as que, segÃºn los datos revelados por el Instituto nacional de EstadÃ­sticas y censos,
+las 4 enfermedades mÃ¡s comunes en Ecuador son Apendicitis, Colelitiasis, NeumonÃ­a y Gastroenteritis?
+Â¿Y que la diabetes es la segunda causa de muerte en el paÃ­s? Y que ademÃ¡s, 4 de cada 5 personas no saben o 
+no tienen informaciÃ³n del centro mÃ©dico en su zona. Todo esto se da por falta de informaciÃ³n. Bueno, nosotros 
+te presentamos "Our Salute", una pÃ¡gina web la cuÃ¡l contiene informaciÃ³n exacta y detallada de cada enfermedad 
+mencionada, ademÃ¡s de un test el cual le ayudarÃ¡ a saber cuÃ¡l de estas enfermedades posee y por Ãºltimo un 
+buscador de centros mÃ©dicos que le ayudarÃ¡ con la direcciÃ³n. contacto, especialidades y horarios del centro mÃ©dico 
+que busque. 
