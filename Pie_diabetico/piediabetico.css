@@ -1,0 +1,126 @@
+body{
+    font-family: "open sans";
+    background: radial-gradient(at top, rgb(172, 184, 247), rgb(128, 140, 243));
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #bc4e60;
+    background: -webkit-linear-gradient(to right, hsla(231, 88%, 61%, 0.459), hsla(234, 98%, 51%, 0.664)), url(imagenes/pie.png); 
+    background: linear-gradient(to right,hsla(236, 97%, 49%, 0.459), hsla(231, 82%, 74%, 0.664)), url(imagenes/pie.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding:  30px 50px 0 0;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+header .textos-header{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 80px;
+    font-weight: 600;
+	color: rgb(252, 252, 252);
+}
+h2{
+    font-size: 40px;
+	color: rgb(252, 252, 252);
+	text-align: center;
+}
+.nav{
+    font-family: "open sans";
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid #8385fcc9;
+    border-radius: 10px;
+}
+.nav{
+    height: 35px;
+    width: 98%;
+    background: #799af5;
+    color: rgb(71, 71, 71);
+    box-sizing: content-box; 
+}
+a{
+    color: white;
+}
+h3{
+	text-align: center;
+	font-size: 40px;
+    font-weight: 600;
+}
+p{
+	width: 200%;
+    max-width: 700px;
+    margin: auto;
+	overflow: hidden;
+}
+img{
+	width: 200px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 0; 
+}
+.card{
+    overflow: hidden;
+    background: radial-gradient(at top, rgb(66, 126, 253), rgb(137, 173, 240));
+    box-shadow: 0px 1px 10px rgba(197, 195, 195, 0.89);
+    cursor: default;
+    transition: all 400ms ease;
+    border-radius: 10px;
+    content: none;
+    display: flex;
+}
+.card{
+	max-width: 395px;
+    margin: auto;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: rgb(197, 49, 49);
+    transform: translateY(-3%);
+}
+.card{
+    margin: 0 !important;
+    padding: 5px;
+}
+.card-header{
+	text-align: center;
+	font-size: 20px;
+    font-weight: 600;
+}
+.card-title{
+	text-align: center;
+}
+.card-text{
+	width: 200%;
+    max-width: 230px;
+    text-align: justify;
+}
+p{
+	width: 200%;
+	max-width: 250px;
+}
+footer{
+    background: rgb(114, 112, 112);
+}
