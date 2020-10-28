@@ -1,0 +1,103 @@
+body{
+    font-family: "open sans";
+    background: radial-gradient(at top, rgb(231, 235, 252), rgb(24, 58, 250));
+    background-attachment: fixed 
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #bc4e60;
+    background: -webkit-linear-gradient(to right, hsla(24, 88%, 61%, 0.459), hsla(2, 59%, 49%, 0.664)), url(imagenes/nutrición\ y\ diabéticos.jpg); 
+    background: linear-gradient(to right,hsla(292, 12%, 47%, 0.459), hsla(310, 82%, 74%, 0.664)), url(imagenes/nutrición\ y\ diabéticos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding:  30px 50px 0 0;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+header .textos-header{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 65px;
+    color: rgb(252, 252, 252);
+}
+.nav{
+    font-family: "open sans";
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid #8385fcc9;
+    border-radius: 10px;
+}
+.nav{
+    height: 35px;
+    width: 98%;
+    background: #799af5;
+    color: rgb(250, 249, 249);
+    box-sizing: content-box; 
+}
+a{
+    color: white;
+}
+.container{
+    width: 200%;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor{
+    width: 100%;
+    max-width: 700px;
+    height: 800px;
+    margin: auto;
+    padding: 50px;
+    background: rgb(252, 250, 250);
+    margin-top: 40px;
+    box-shadow: 0px 1px 10px rgba(112, 110, 110, 0.4);
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+img{
+    width: 200px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 1px 10px rgba(202, 199, 199, 0.89);
+	border-radius: 10px;   
+}
+p{
+    text-align: justify;     
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 5px;
+}
+.galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 2px solid #f7f7f7;
+}
+footer{
+    background: #727270;
+}
