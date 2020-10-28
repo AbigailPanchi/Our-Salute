@@ -1,0 +1,87 @@
+body{
+    font-family: "open sans";
+    background: radial-gradient(at top, rgb(231, 235, 252), rgb(24, 58, 250));
+    background-attachment: fixed 
+}
+#header img {
+    width: 200px;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background: #bc4e60;
+    background: -webkit-linear-gradient(to right, hsla(24, 88%, 61%, 0.459), hsla(2, 59%, 49%, 0.664)), url(imagenes/Sin\ título.png); 
+    background: linear-gradient(to right,hsla(292, 12%, 47%, 0.459), hsla(310, 82%, 74%, 0.664)), url(imagenes/Sin\ título.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding:  30px 50px 0 0;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+h1{
+    color: white;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+}
+a{
+    color: rgb(8, 8, 8);
+}
+h3{
+    text-align: center;
+}
+.nav{
+    font-family: "open sans";
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid #8385fcc9;
+    border-radius: 10px;
+}
+.nav{
+    height: 35px;
+    width: 98%;
+    background: #799af5;
+    color: rgb(250, 249, 249);
+    box-sizing: content-box; 
+}
+a{
+    color: white;
+}
+.container{
+    width: 200%;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+li{
+    padding-left: 80px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+h4{
+    font-size: 24px;
+    font-weight: 550;
+    padding-left: 10px;
+}
+
+footer{
+    background: #727270;
+}
+
