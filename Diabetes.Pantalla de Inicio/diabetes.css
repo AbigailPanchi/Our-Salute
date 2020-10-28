@@ -1,0 +1,125 @@
+body{
+    font-family: "open sans";
+    background: radial-gradient(at top, rgb(231, 235, 252), rgb(24, 58, 250));
+    background-attachment: fixed;
+}
+a{
+    color: rgb(253, 253, 253);
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #bc4e60;
+    background: -webkit-linear-gradient(to right, hsla(236, 88%, 61%, 0.459), hsla(231, 59%, 49%, 0.664)), url(imagenes/Portada.jpg); 
+    background: linear-gradient(to right,hsla(258, 61%, 74%, 0.459), hsla(234, 85%, 60%, 0.664)), url(imagenes/Portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding:  30px 50px 0 0;
+}
+nav a{
+    color: rgb(22, 21, 21);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#header img {
+    width: 200px;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 60px;
+    color: rgb(252, 252, 252);
+    font-weight: 800;
+}
+.nav{
+    font-family: "open sans";
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid #8385fcc9;
+    border-radius: 10px;
+}
+.nav{
+    height: 35px;
+    width: 98%;
+    background: #799af5;
+    color: rgb(250, 249, 249);
+    box-sizing: content-box; 
+}
+a{
+    color: white;
+}
+.container{
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 0; 
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.card{
+    width: 90%;
+    max-width: 90px;
+    left: 5%;
+}
+.card{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 0; 
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(179, 176, 176, 0.89);
+    cursor: default;
+    transition: all 400ms ease;
+    border-radius: 10px;
+    content: none;
+    display: flex;
+}
+.card:hover{
+    box-shadow: rgb(197, 49, 49);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 400px;
+    height: 210px;
+    
+}
+.card p{
+    font-family: "open sans";
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+footer{
+    background: #727270;
+}
